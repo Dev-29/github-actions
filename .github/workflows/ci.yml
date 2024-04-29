@@ -49,8 +49,6 @@ jobs:
     #
     # - name: Build with Gradle 8.5
     #   run: gradle build
-  publish:
-    needs: build
 
   dependency-submission:
 
